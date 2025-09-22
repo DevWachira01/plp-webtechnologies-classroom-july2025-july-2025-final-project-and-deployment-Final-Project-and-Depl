@@ -114,7 +114,6 @@ nav a.active {
   padding: 0.8rem 1.5rem;
   background: var(--primary-color);
   color: var(--accent-color);
-  border: 1.5px solid black;
   border-radius: 5px;
   text-decoration: none;
   transition: background 0.3s ease;
@@ -122,14 +121,31 @@ nav a.active {
 
 .hero .btn:hover {
   background: #388e3c; /* darker shade */
-  border:none;
+  
 }
 
 /* Sections */
 section {
   padding: 3rem 2rem;
   text-align: center;
+
+  border-bottom: 2px solid #1e1e1e ;
 }
+.about-preview .btn{
+  background-color:var(--primary-color);
+  display: inline-block;
+  text-decoration: none;
+  margin-top: 30px;
+  padding: 10px;
+  border-radius: 5px;
+  color: var(--accent-color);
+  transition: background 1 ease;
+
+}
+.about-preview .btn:hover{
+  background:#388e3c ;
+}
+
 
 /* Service Cards */
 .services-overview .service-cards {
