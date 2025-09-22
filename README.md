@@ -2,7 +2,7 @@ Vuka Digital Website
 
 This is the official website for Vuka Digital Agency, a modern and responsive multi-page website designed to showcase services, company profile, and contact information.
 
-Live Demo: https://vuka-digital.netlify.app
+Live Demo: https://vukadigital.netlify.app/
 
 1. Pages
 
@@ -13,6 +13,7 @@ Live Demo: https://vuka-digital.netlify.app
    *Services (services.html) → List of services offered.
 
    *Contact Us (contact.html) → Contact form, and contact info.
+
 
 2. Project Structure
        Vuka-Digital/
